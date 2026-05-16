@@ -2,7 +2,7 @@
 we tell CMake to create a target called libtbd with a single source efile
 libtbd.cpp
 ]]
-add_library(libtbd libtbd.cpp)
+add_library(libtbd process.cpp)
 
 #[[
 Its best practice to use namespaced library targets in CMake, as it
